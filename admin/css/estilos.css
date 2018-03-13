@@ -1,0 +1,431 @@
+
+.post
+{
+	width: 260px;
+	height: auto;
+	background-color:white;
+	margin: 0 auto;
+	border-radius: 5px;
+	float: left;
+	margin: 8px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+	padding-bottom: 15px;	
+}
+
+.post h2{
+padding-left: 10px;
+}
+
+.post p{
+padding-left: 10px;
+color:#262626;
+}
+.fecha{
+	font-size: 10px;
+	
+}
+.continuar{
+	padding-right: 10px;
+	padding:8px;
+	background-color: grey;
+	color:white;
+	border-radius: 5px;
+	position: relative;
+	left: 10px;
+
+}
+.continuar:hover{
+	text-decoration: underline;
+	color: red !important;
+}
+
+
+
+
+.titulo{
+	padding: 10px;
+	padding-left: 10px;
+	color: #3A3C3D;
+	border-left: 5px solid #7ccce5;
+	font-size: 17px;
+	
+}
+.titulo-single{
+    padding: 10px;
+	padding-left: 10px;
+	color: #3A3C3D;
+	border-left: 5px solid #7ccce5;
+	font-size: 25px;	
+}
+
+.titulo a{
+color: #3A3C3D !important;
+
+
+
+}
+.titulo a:hover{
+text-decoration: underline; 
+
+}
+
+
+.contenedor-noticias{
+	position: relative;
+	top: -30px;
+	width:  1100px;
+	display: flex;
+	margin: 0 auto;
+	}
+
+
+#ladoDerecho-index{
+	padding-top: 20px; 
+	width: 240px;
+	height: 490px;
+	float: right;
+	
+	
+}
+#ladoDerecho-index img{
+	width: 240px;
+	height: 490px;
+}
+	
+
+
+.noticias-centro{
+float: left;
+margin-left: 5px;
+padding-left: 5px;
+margin-right: 5px;
+padding-right: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 830px;
+height: auto;
+
+
+
+}
+
+#ladoAbajo-index{
+	width: 800px;
+	height: auto;
+	margin:0 auto;
+	padding-bottom: 10px;
+	color: grey;
+	text-align: center;
+
+	}
+
+
+.linea{
+	border-top: 1px solid grey;
+}
+article a img{
+	width: 100%;
+	height: 180px;
+border-radius: 3px;
+}
+article a img:hover{
+	
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+
+}
+.extracto{
+	float: right;
+	width: 250px;
+	height:auto;
+	
+}
+#noti-centro{
+	position: relative;
+	left: 10px;
+}
+.contenedor-paginacion{
+	position: relative;
+	top: -25px;
+	width: 400px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.paginacion  ul li {
+		float:left;
+		
+		}
+			
+	.paginacion li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+		border-left: 2px;
+		
+		
+	}
+	.disabled{	
+		background-color:grey;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}
+	.active-paginacion{	
+		background-color:red;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}		
+	.paginacion li a:hover {
+		background-color: red;
+		text-decoration: underline;
+	}
+			
+	
+.contenedor-noticias-single{
+	width:  1100px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	display: flex;
+	}
+
+
+.post-single
+	{
+	width: 800px;
+	height: auto;
+	background-color:white;
+	margin: 0 auto;
+	box-shadow: 0.2px 0.2px 0.2px 0.2px #888888;
+	display: flex;
+	
+	}
+.post-single article
+	{
+	width: 800px;
+	height: auto;
+	
+	}
+
+.post-single p{
+padding-left: 10px;
+
+}
+
+.post-single img{
+	width: 100%;
+	height: 300px;
+}
+#ladoDerecho-index-single{
+	width: 250px;
+	height: 300px;
+	background-color:#fff;
+	float: right;
+	position: relative;
+	top: 100px;
+
+	}
+	
+.contenedor-noticias-view{
+	width:  1100px;
+	display: flex;
+	margin: 0 auto;
+	}
+
+#session-imagenes{
+	width: 1050px;
+	height: 310px;
+	padding-left: 50px;
+
+}	
+.session-contenedor{
+	height: 350px;
+	width: 300px;
+	border-radius: 5px;
+	border: 0.5px solid grey;
+	float: left;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom: 15px;
+	
+}
+.session-contenedor:hover{
+	box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+	
+}
+
+.contenedor-imagenes{
+	width: 100%;
+	height: 230px;
+
+}
+.seccionAbajo2{
+	height: 20px;
+}
+
+.usuario{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+	text-align: center;
+
+}
+.form-linea{
+width: 292px;
+height: 60px;
+margin: 0 auto;
+
+}
+.image-form{
+	float: left;
+	height: 22px;
+	padding: 7px;
+	border: 1px solid grey;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+}
+
+.label-username{
+	color: grey;
+}
+.form-control{
+	height: 34px;
+	width: 250px;
+	border: 1px solid grey;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: none;
+	float: left;
+}
+.form-control:hover{
+	border-color:red;
+	box-shadow: 0.3px 0.3px 0.3px 0.3px red;
+}
+
+.btn{
+	height: 30px;
+	width: 120px;
+	background-color: red;
+	border: none;
+	border-radius: 3px;
+	color: white;
+
+	}
+.btn:hover{
+		background-color: #A01217;
+	}
+
+.sesion-btn	{
+	background-color: gray;
+	border-radius: 3px;
+	padding:8px;
+	border: 5px solid white;
+	text-align: center;
+	color: white;
+}	
+.sesion-btn a{
+	color: white;
+}
+
+.sesion-btn:hover{
+		background-color:#232323;
+		color: white;
+	}
+
+.cerrarSesion-btn{
+	background-color: red;
+	border-radius: 5px;
+	padding:8px;
+	border: 5px solid white;
+	text-align: center;
+}	
+
+.cerrarSesion-btn a{
+	color: white;
+}
+.cerrarSesion-btn:hover{
+		background-color:#A01217;
+		color: white;
+	}
+
+.input-nuevo{
+		height: 30px;
+		width: 99%;
+		padding: 5px;
+		border: none;
+		border-radius: 4px;
+		box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+		
+		
+}
+.input-nuevo:hover{
+		box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+		border-radius: 4px;
+	}	
+
+.post-nuevo	{
+	width: auto;
+	height: 405px;
+	background-color:white;
+	border-radius: 5px;
+	margin: 8px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+}
+.articulo-nuevo{
+	width: 96%;
+	height: 405px;
+    margin: 0 auto;
+}
+.input-text{
+		height: 150px;
+		width: 99%;
+		padding: 5px;
+		border: none;
+		border-radius: 4px;
+		box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+		
+		
+}
+.input-text:hover{
+		box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+		border-radius: 4px;
+	}	
+
+	.imagenes-galeria{
+height: 230px;
+width: 300px;
+border-radius: 5px;
+}
+
+.imagenes-galeria:hover{
+box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+
+}
+
+.caption{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: -10px;
+	color: grey;
+
+}
+
+.session-imagenesGaleria{
+	width: 700px;
+	height: auto;
+	padding-left: 50px;
+}
+
+#imagen-admin{
+    width: 1100px;
+}
